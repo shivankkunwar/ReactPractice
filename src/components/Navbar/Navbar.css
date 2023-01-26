@@ -1,0 +1,28 @@
+.navigate{
+    
+    padding: 20px;
+    display: flex;
+    align-items: center;
+   
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+   
+  }
+  .navigate  h1{
+    color: #f1356d;
+    font-size: 2rem;
+  }
+ .navigate >.links{
+    margin-left: auto;
+  }
+
+  .navigate a{
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+  }
+  .navigate a:hover{
+    color:#f1356d
+  }
+  
+  
