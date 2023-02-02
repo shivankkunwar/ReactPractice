@@ -8,15 +8,17 @@ import './App.css';
 
 function App() {
   return (
-    <div >
+    <div>
       <Navbar/>
-      
-      <Routes>
-        <Route path='/searchbar' element={<Searchbar />}/>
-        <Route path='/counter' element={<Counter />}/>
-        <Route path='/list' element={<BlogList />}/>
-        <Route path='/' element={<Home />}/>
-      </Routes>
+      <div >
+          <Routes>
+            <Route path='/searchbar' element={<Searchbar />}/>
+            <Route path='/counter' element={<Counter />}/>
+            <Route path='/list' element={<BlogList />}/>
+            <Route path='/' element={<Home />}/>
+          </Routes>
+      </div>
+     
      
 
      

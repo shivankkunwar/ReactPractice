@@ -3,6 +3,7 @@ import './Home.css';
 import Accordian from "./Accordian/Accordian";
 import data from "./Accordian/data"
 import Slider from "./Slider/Slider";
+import Checkbox from "./Checkbox/Checkbox";
 function Home(){
     return (
     <div>
@@ -18,7 +19,10 @@ function Home(){
                 }
                 </div>
         </div>
-        
+        <div>
+            <h2> CheckBox</h2>
+            <Checkbox/>
+        </div>
     </div>
        
     )
